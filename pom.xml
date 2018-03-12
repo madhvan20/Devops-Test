@@ -1272,7 +1272,7 @@
             </plugin>
         </plugins>
     </reporting>
-
+<!--
     <modules>
         <module>archetypes</module>
         <module>bom</module>
@@ -1288,7 +1288,7 @@
         <module>media</module>
         <module>security</module>
     </modules>
-
+-->
     <dependencyManagement>
         <dependencies>
             <dependency>
