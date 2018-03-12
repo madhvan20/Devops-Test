@@ -743,9 +743,11 @@
                   <name>!tests.excluded</name>
                 </property>
             </activation>
+            <!--
             <modules>
                 <module>tests</module>
             </modules>
+            -->
         </profile>
         <profile> <!-- examples module will be automatically included unless examples.excluded env variable is set -->
             <id>examplesIncluded</id>
@@ -767,9 +769,11 @@
                     <name>!bundles.excluded</name>
                 </property>
             </activation>
+            <!--
             <modules>
                 <module>bundles</module>
             </modules>
+            -->
         </profile>
         <profile> <!-- test-framework module will be automatically included unless test-framework.excluded env variable is set -->
             <id>testFrameworkIncluded</id>
@@ -779,9 +783,11 @@
                     <name>!test-framework.excluded</name>
                 </property>
             </activation>
+            <!--
             <modules>
                 <module>test-framework</module>
             </modules>
+            -->
         </profile>
         <profile>
             <id>release</id>
