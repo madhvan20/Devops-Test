@@ -1031,6 +1031,18 @@
                     </plugins>
                 </pluginManagement>
             </build>
+		<distributionManagement>
+			<repository>
+				<id>deployment</id>
+				<name>Internal Releases</name>
+				<url>http://54.197.220.201:8081/repository/Project-Rel/</url>
+		        </repository>
+			<snapshotRepository>
+			 <id>deployment</id
+		         <name>Internal Snapshot Releases</name>
+	                 <url>http://54.197.220.201:8081/repository/Project-Snap/</url>
+			</snapshotRepository>
+		<distributionManagement>
             <reporting>
                 <plugins>
                     <plugin>
