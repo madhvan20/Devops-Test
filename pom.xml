@@ -8,10 +8,10 @@
     The contents of this file are subject to the terms of either the GNU
     General Public License Version 2 only ("GPL") or the Common Development
     and Distribution License("CDDL") (collectively, the "License").  You
-    may not use this file except in compliance with the License.  You can
+    may not use this file except in compliance with the License.  Yo34.229.226.62u can
     obtain a copy of the License at
     http://glassfish.java.net/public/CDDL+GPL_1_1.html
-    or packager/legal/LICENSE.txt.  See the License for the specific
+    or packager/legal/LICENSE.txt.  See the License for the specifi8081c
     language governing permissions and limitations under the License.
 
     When distributing the software, include this License Header Notice in each
@@ -1035,12 +1035,12 @@
 			<repository>
 				<id>deployment</id>
 				<name>Internal Releases</name>
-				<url>http://54.242.221.242:8081/repository/Project-Rel/</url>
+				<url>http://34.229.226.62:8081/repository/Project-Rel/</url>
 		        </repository>
 			<snapshotRepository>
 				<id>deployment</id>
 		         <name>Internal Snapshot Releases</name>
-	                 <url>http://54.242.221.242:8081/repository/Project-Snap/</url>
+	                 <url>http://34.229.226.62:8081/repository/Project-Snap/</url>
 			</snapshotRepository>
 		</distributionManagement>
             <reporting>
