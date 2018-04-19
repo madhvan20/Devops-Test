@@ -1071,7 +1071,7 @@
                 <!-- The system property jacoco.outputDir is based on. This won't work for 'sonar:sonar' (see http://jira.codehaus.org/browse/SONAR-3427), as such a property 'jacoco.outputDir' has to be explicitly specified from a command line -->
                 <!--<jacoco.outputDir>${session.executionRootDirectory}/target</jacoco.outputDir>-->
 		    <jacoco.version>0.7.5.201505241946</jacoco.version>
-		    <jacoco.outputDir>${project.basedir}/target/jacoco.exec</jacoco.outputDir>
+		    <jacoco.outputDir>${project.basedir}/target</jacoco.outputDir>
                 <!-- Tells Sonar where the Jacoco coverage result file is located for Unit Tests -->
                 <sonar.jacoco.reportPath>${jacoco.outputDir}/jacoco.exec</sonar.jacoco.reportPath>
                 <!-- Tells Sonar where the Jacoco coverage result file is located for Integration Tests -->
