@@ -1039,7 +1039,7 @@
 			</repository>
                        -->
 			<snapshotRepository>
-				<id>deployment-snap</id>
+				<id>deployment</id>
 		         <name>Internal Snapshot Releases</name>
 	                 <url>http://34.230.66.12:8081/repository/Project-Snap/</url>
 			</snapshotRepository>
