@@ -321,8 +321,9 @@
                     <version>2.18.1</version>
                     <configuration>
                         <!-- for convenience reasons, 'argLine' should not be overridden in child poms. if needed, a property should be declared and used here -->
-                        <argLine>-Xmx1024m -Dfile.encoding=UTF8 ${surefire.security.argline} ${surefire.coverage.argline}</argLine>
-                        <skipTests>${skip.tests}</skipTests>
+                        <!--<argLine>-Xmx1024m -Dfile.encoding=UTF8 ${surefire.security.argline} ${surefire.coverage.argline}</argLine> -->
+			    <argLine>${argLine} -Xmx2048m</argLine>
+			    <skipTests>${skip.tests}</skipTests>
                     </configuration>
                 </plugin>
                 <plugin>
