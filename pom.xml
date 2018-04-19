@@ -1032,14 +1032,14 @@
                 </pluginManagement>
             </build>
 		<distributionManagement>
-			<!--<repository>
-				<id>deployment-rel</id>
+			<repository>
+				<id>deployment</id>
 				<name>Internal Releases</name>
 				<url>http://34.230.66.12:8081/repository/Project-Rel/</url>
 			</repository>
-                       -->
+                       
 			<snapshotRepository>
-				<id>deployment</id>
+				<id>deployment-snap</id>
 		         <name>Internal Snapshot Releases</name>
 	                 <url>http://34.230.66.12:8081/repository/Project-Snap/</url>
 			</snapshotRepository>
