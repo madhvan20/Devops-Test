@@ -1071,7 +1071,7 @@
                 <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
                 <!-- The system property jacoco.outputDir is based on. This won't work for 'sonar:sonar' (see http://jira.codehaus.org/browse/SONAR-3427), as such a property 'jacoco.outputDir' has to be explicitly specified from a command line -->
                 <!--<jacoco.outputDir>${session.executionRootDirectory}/target</jacoco.outputDir>-->
-		    <jacoco.version>0.6.1.201212231917</jacoco.version>
+		    <jacoco.version>0.6.0.201210061924</jacoco.version>
 		    <jacoco.outputDir>/home/ubuntu/.jenkins/workspace/DevOpsPipeline/examples/feed-combiner-java8-webapp/target</jacoco.outputDir>
                 <!-- Tells Sonar where the Jacoco coverage result file is located for Unit Tests -->
                 <sonar.jacoco.reportPath>${jacoco.outputDir}/jacoco.exec</sonar.jacoco.reportPath>
